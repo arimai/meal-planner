@@ -10,6 +10,10 @@
 - SASS
 - Flexbox
 - [Edamam](https://www.edamam.com/) recipe search API
+
+#### Future Ideas
+- Adding a grocery list aggregating all ingredients from the suggested meals
+- Creating more selection criteria for health concerns such as PCOD, Diabetes, etc by collecting and analyzing data from several health and nutrition websites.
  
 #### Project architecture
 ```
