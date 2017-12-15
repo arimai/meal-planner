@@ -1,7 +1,7 @@
 {
   "name": "meal-planner",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "font-awesome": "^4.7.0",
     "node-sass-chokidar": "^0.0.3",
