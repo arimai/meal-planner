@@ -1,0 +1,50 @@
+@import '../../../partials/manifest.scss';
+// mobile first
+.Landing{
+  display: flex;
+  flex-flow: row wrap;
+  min-height: 85vh;
+  text-align: center;
+}
+.Landing__banner, .Landing__data{
+  flex: 1;
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 1rem;
+}
+.Landing__banner{
+  background: url(http://res.cloudinary.com/arimai/image/upload/v1513217434/landing-bkg_ra0ua5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  &__heading{
+    margin: auto;
+    font-family: $heading-font--cursive;
+    color: white;
+  }
+}
+.Landing__data{
+  flex: 100%;
+  background: url(http://res.cloudinary.com/arimai/image/upload/v1513217433/landing-pattern_siqtj9.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  &__content{
+    margin: auto;
+    font-family: $subHeading-font--serif;
+    color: $asphalt;
+    ul {
+    margin-bottom: 3%;
+      li{
+        padding: 0.71rem;
+      }
+    }
+  }
+}
+//larger screens
+@media (min-width:900px){
+  .Landing__banner__heading{
+    font-size: 3rem;
+  }
+  .Landing__data{
+    flex:1;
+  }
+}

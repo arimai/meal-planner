@@ -1,0 +1,39 @@
+@import '../../../partials/manifest.scss';
+//mobile-first
+.Plan__tabs{
+  padding: 0;
+  .Tabs__head{
+    flex-flow: row nowrap;
+    flex: 100%;
+    overflow-x: scroll;
+    white-space: nowrap;
+    color: $asphalt;
+  }
+  .Tabs__content{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 0;
+    margin: auto;
+  }
+  .Meal{
+    flex:100%;
+  }
+}
+//larger screens
+@media (min-width:900px){
+  .Plan__tabs{
+    .Tabs__head{
+      flex-flow: row wrap;
+      flex: 100%;
+      overflow: hidden;
+      justify-content: center;
+    }
+    .Tabs__content{
+      padding: 0 3rem;
+    }
+    .Meal{
+      flex:1;
+      width:25rem;
+    }
+  }
+}

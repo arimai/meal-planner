@@ -1,0 +1,40 @@
+@import '../../../partials/manifest.scss';
+
+.Button{
+  padding: 0.5rem 1.2rem;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  font-size: 1rem;
+  font-family: $button-font--bold;
+  &:hover{
+    transform: translateY(0.51px);
+  }
+}
+.Button--regular{
+  background-color: $turq;
+  border-radius: 1rem;
+  color: white;
+  &:hover{
+    background-color: $emerald;
+    color: $clouds;
+  }
+}
+.Button--accent{
+  background-color: $hotpink;
+  padding: 1.5rem 2rem;
+  border-radius: 2rem;
+  color: white;
+  &:hover{
+    background-color: $flatred;
+    color: $clouds;
+  }
+}
+.Button--transparent{
+  background-color: transparent;
+  border-radius: 0;
+  color: $river;
+  &:hover{
+    color: $flatred;
+  }
+}

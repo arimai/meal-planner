@@ -1,0 +1,22 @@
+@import '../../../partials/manifest.scss';
+.NotFound{
+  height: 50vh;
+  display: flex;
+  background: white;  /* fallback for old browsers */
+  background:linear-gradient(to top, white, rgba(236, 233, 230, 0.3)), url('http://res.cloudinary.com/arimai/image/upload/v1513217434/notFound-bkg_cojam4.jpg') ;
+  background-size: cover;
+  margin-top: 0;
+  padding: 2rem;
+}
+.NotFound__content{
+  margin-left: 40%;
+  color: $asphalt;
+  font-size: 1.3rem;
+}
+.NotFound__content-highlight{
+  font-size: 3rem;
+  color: $hotpink;
+}
+.NotFound__link{
+  color: $hotpink;
+}
