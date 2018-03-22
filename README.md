@@ -1,6 +1,6 @@
 # Meal planner
  - A web application to plan what you eat daily in accordance to dietary needs. 
- - Please find the [demo here](https://arimai.github.io/meal-planner).
+ - Please find the [demo here](https://arimai.github.io/meal-planner/#/).
  - This project was bootstrapped with [create-react-app](https://github.com/facebookincubator/create-react-app)
  - This project does not make use of any external CSS frameworks. Excuse the [sassiness](http://sass-lang.com/). :wink:
  - This project has been designed mobile-first and makes use of [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) extensively.
