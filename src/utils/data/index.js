@@ -1,4 +1,4 @@
-import  { Survey, API } from '../../data';
+import  { Survey, API } from './data';
 
 const getSurveyData = () => Survey ;
 const getAPIData = () => API;
