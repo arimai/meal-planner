@@ -37,7 +37,7 @@ Some of the advantages of this approach is nicely discussed in [this](https://ha
 
 
 #### Note to fork and run this project
-
+- Run `npm i`
 - Please replace the lines in the file : `meal-planner/src/utils/data/data.js` with your own edamam ID and edamam API key. Thanks!
 ```
 const API = {
