@@ -46,4 +46,6 @@ const API = {
   URL : "https://api.edamam.com/search?",
 }
 ```
+Make sure you make an API ID and Key from the [Recipe Search API](https://developer.edamam.com/edamam-docs-recipe-api)
+- `npm run start` to start the development server
 
