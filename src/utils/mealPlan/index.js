@@ -39,7 +39,7 @@ const buildQuery = (data, ID, KEY) => {
   let queries = {};
   for(let i=0;i<count;i++){
     let str = labelArr[i];
-    let query = `q=${str}&app_id=${ID}&app_key=${KEY}&to=${type}&diet=${data.diet}${health}&calories=gte ${calories.min}, lte ${calories.max}`;
+    let query = `q=${str}&app_id=${ID}&app_key=${KEY}&to=${type}&diet=${data.diet}${health}&calories=${calories.min}-${calories.max}`;
     queries[str]= query;
   }
   return queries;
